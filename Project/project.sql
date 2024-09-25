@@ -29,8 +29,6 @@ CREATE TABLE Airlines (
     airline_code VARCHAR(10) NOT NULL
 );
 
-
-
 CREATE OR REPLACE TRIGGER airline_id_trigger
 BEFORE INSERT ON Airlines
 FOR EACH ROW
